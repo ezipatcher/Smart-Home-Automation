@@ -1,0 +1,57 @@
+# Arduino
+
+*.hex
+*.elf
+*.eep
+*.bin
+*.map
+
+# Arduino build files
+
+build/
+build-*/
+out/
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Arduino IDE
+
+*.ino.d
+libraries/
+
+# Serial monitor / logs
+
+*.log
+
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Environment files
+
+.env
+.env.local
+
+# Backup files
+
+*~
+*.orig
+*.rej
